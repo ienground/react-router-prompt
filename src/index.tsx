@@ -56,7 +56,7 @@ function ReactRouterPrompt({
   return (
     <>
       {children({
-        isActive: true,
+        isActive: isActive,
         onConfirm: onConfirmAction,
         onCancel: onResetAction,
         nextLocation: nextLocation || undefined,
